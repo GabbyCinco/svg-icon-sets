@@ -1,7 +1,9 @@
-html {
+body {
   background: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  color: #fff;
+  font-family: 'Overpass', sans-serif;
 }
 
 a {
-  color: #fff;
+  color: #ff5e3a;
 }
