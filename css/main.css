@@ -1,9 +1,38 @@
-body {
-  background: linear-gradient(to bottom, #ff9500, #ff5e3a);
+html {
   color: #fff;
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
 a {
   color: #ff5e3a;
+}
+
+.btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn:hover {
+  color: #ff5e3a;
+  border-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+section {
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: #ff9500;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    border-right: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: none;
+  }
+
 }
