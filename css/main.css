@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #ff5e3a;
+  color: #ff9500;
 }
 
 .btn {
@@ -23,7 +23,7 @@ a {
 }
 
 section {
-  width: 100%;
+  width: 80%;
   border-bottom-style: solid;
   border-bottom-color: #ff9500;
 }
@@ -31,7 +31,7 @@ section {
 @media only screen and (min-width: 60em) {
 
   section {
-    border-right: 2px solid rgba(255, 255, 255, 1);
+    border-right: 3px solid #ff9500;
     border-bottom: none;
   }
 
